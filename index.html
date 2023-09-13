@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id="calculo" class="elementos">
+            <!-- tela -->
+            <div id="tela">
+    
+            </div>
+            
+            <!-- Números -->
+            <div class="elemento n-0 " onclick="n_0()">
+                0
+            </div>
+             <div class="elemento n-1 " onclick="n_1()">
+                1
+            </div>
+             <div class="elemento n-2 " onclick="n_2()">
+                2
+            </div>
+            <div class="elemento n-3 " onclick="n_3()">
+                 3
+                </div>
+                <div class="elemento n-4 " onclick="n_4()">
+                    4
+                </div>
+                <div class="elemento n-5 " onclick="n_5()">
+                5
+            </div>
+             <div class="elemento n-6 " onclick="n_6()">
+                6
+            </div>
+            <div class="elemento n-7 " onclick="n_7()">
+                7
+            </div>
+            <div class="elemento n-8 " onclick="n_8()">
+                8
+            </div>
+            <div class="elemento n-9 " onclick="n_9()">
+                9
+            </div>
+            
+            <!-- Operadores -->
+
+
+            <div class="elemento raiz" onclick="fAnalise()">
+                V-
+            </div>
+
+            <!-- Elementos de resetar e apagar  -->
+            <div class="elemento apagar" onclick="fAnalise()">
+                C
+            </div>
+            <div class="elemento reset" onclick="allClear()">
+                AC
+            </div>
+            <div class="elemento por" onclick="fAnalise()">
+                %
+            </div>
+            <div class="elemento div" onclick="div()">
+                /   
+            </div>
+            <div class="elemento mult" onclick="multiplicação()">
+                X
+            </div>
+            <div class="elemento subt" onclick="subtração()">
+                -
+            </div>
+            <div class="elemento sum" onclick="sum()">
+                +
+            </div>
+            
+            <div class="elemento tot" onclick="total()">
+                =
+            </div>
+            
+            
+            <!-- Vírgula -->
+            <div class="elemento virg" onclick="fAnalise()">
+                ,
+            </div>
+
+           
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Todos os direitos reservados</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

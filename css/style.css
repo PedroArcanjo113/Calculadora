@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    text-align:center;
+}
+body{
+    background:#6528F7;
+    color:#D7BBF5;
+    margin-top:5%;
+}
+section{
+    height:50vh;
+    width:25vw;
+    align-items: center;
+    margin:auto;
+    background:#EDE4FF;
+}
+#calculo{
+    display:grid;
+    grid-gap:5%;
+    grid-template-areas:
+    "tela tela tela tela"
+    "reset raiz por div"
+    "n-9 n-8 n-7 mult"
+    "n-6 n-5 n-4 subt"
+    "n-3 n-2 n-1 sum"
+    "n-0 apagar virg tot"
+}
+.elementos{
+    padding:5%;
+    text-align:center;
+}
+.elemento{
+    background:#A076F9;
+}
+#tela{
+    grid-area:tela;
+    background:white;
+    height:2em;
+    width: 100%;
+    overflow:auto;
+    margin-bottom:3%;
+    text-align: end;
+}
+/*Símbolos*/
+.reset{
+    grid-area:reset;
+}
+.apagar{
+    grid-area:apagar;
+}
+.raiz{
+    grid-area:raiz;
+}
+.por{
+    grid-area:por;
+}
+.div{
+    grid-area:div;
+}
+    .mult{
+        grid-area:mult;
+}
+.subt{
+    grid-area:subt;
+}
+.sum{
+    grid-area:sum;
+}
+.virg{
+    grid-area:virg;
+}
+.tot{
+    grid-area:tot;
+}
+/*Números*/
+
+.n-0{
+    grid-area:n-0;
+}
+.n-1{
+    grid-area:n-1;
+}
+.n-2{
+    grid-area:n-2;
+}
+.n-3{
+    grid-area:n-3;
+}
+.n-4{
+    grid-area:n-4;
+}
+.n-5{
+    grid-area:n-5;
+}
+.n-6{
+    grid-area:n-6;
+}
+.n-7{
+    grid-area:n-7;
+}
+.n-8{
+    grid-area:n-8;
+}
+.n-9{
+    grid-area:n-9;
+}
+footer{
+    text-align:center;
+}
